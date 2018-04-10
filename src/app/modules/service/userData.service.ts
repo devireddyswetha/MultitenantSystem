@@ -4,12 +4,15 @@ import { Injectable } from '@angular/core';
 export class HeroService {
 
   constructor() { }
-  users=[]=[];
+  users = [];
 
-  addUsers(user){
+  addUsers(user) {
     this.users.push((user));
   }
-  getUsers(): Array<any>{
+  getUsers() {
+
+
+    console.log(this.users);
 
     return this.users;
   }

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Router}              from '@angular/router';
-import {HeroService}         from '../service/userData.service';
+import {Router} from '@angular/router';
+import {HeroService} from '../service/userData.service';
 
 @Component({
   selector: 'app-user-details',
@@ -8,10 +8,10 @@ import {HeroService}         from '../service/userData.service';
   styleUrls: ['./user-details.component.css']
 })
 export class UserDetailsComponent implements OnInit {
-  public usersData :any;
-  public usersDetails :any;
+  public usersData: any;
+  public usersDetails: any;
 
-  constructor(private router: Router,private hService:HeroService) {
+  constructor(private router: Router, private hService: HeroService) {
   }
 
   ngOnInit() {
