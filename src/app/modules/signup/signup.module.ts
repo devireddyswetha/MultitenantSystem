@@ -1,10 +1,13 @@
 import {Component, NgModule, OnInit} from '@angular/core';
 import {CommonModule}                from '@angular/common';
-import {SignupComponent}             from './signup.component'
-
+import {SignupComponent}             from './signup.component';
+import { FormsModule }           from '@angular/forms';
+import {SignUpRoutingModule} from './signup.route.module';
 @NgModule({
   imports: [
-    CommonModule
+    SignUpRoutingModule,
+    CommonModule,
+    FormsModule
   ],
   declarations: [SignupComponent],
   exports: [

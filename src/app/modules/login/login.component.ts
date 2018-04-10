@@ -37,5 +37,9 @@ export class LoginComponent implements OnInit {
      }
 
   }
+  xyz() {
+    alert('dfdfd');
+    this.router.navigateByUrl('/register');
+  }
 
 }

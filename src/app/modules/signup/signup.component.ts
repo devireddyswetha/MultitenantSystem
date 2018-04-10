@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import {HeroService} from '../service/userData.service'
+import {HeroService} from '../service/userData.service';
+
 @Component({
   selector: 'app-login',
   templateUrl: './signup.component.html',
