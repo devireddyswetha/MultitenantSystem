@@ -8,16 +8,15 @@ import { SignupModule }       from './modules/signup/signup.module';
 import { LoginModule }        from './modules/login/login.module';
 import {AppRoutingModule}        from './app-routing.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { UserDetailsComponent } from './modules/user-details/user-details.component';
+import { UserDetailsModule } from './modules/user-details/user-details.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserDetailsComponent
   ],
   imports: [
-    BrowserModule, HttpModule, BrowserAnimationsModule, SignupModule, FormsModule, LoginModule, AppRoutingModule
+    BrowserModule, HttpModule, BrowserAnimationsModule, SignupModule, FormsModule, LoginModule, AppRoutingModule, UserDetailsModule
   ],
   providers : [HeroService],
 
